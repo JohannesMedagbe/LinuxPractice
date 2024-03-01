@@ -1,0 +1,3 @@
+Number of full insert sequence: 12
+Number of complete sequence: 4
+Number of weird sequence: 1

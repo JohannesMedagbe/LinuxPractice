@@ -1,0 +1,52 @@
+1 Homo sapiens alpha palindromic binding protein mRNA
+1 Homo sapiens nuclear respiratory factor 1 (NRF1)
+1 Homo sapiens nuclear respiratory factor-1 (NRF-1) mRNA
+1 Mus musculus 0 day neonate cerebellum cDNA
+1 Mus musculus 10 days neonate skin cDNA
+1 Mus musculus 11 days embryo head cDNA
+1 Mus musculus 13 days embryo forelimb cDNA
+1 Mus musculus 14 days embryo liver cDNA
+1 Mus musculus 16 days neonate thymus cDNA
+1 Mus musculus nuclear respiratory factor 1 (Nrf1)
+1 Mus musculus nuclear respiratory factor-1 (Nrf1) mRNA
+1 Mus musculus targeted KO-first
+1 Mus musculus targeted non-conditional
+2 Mus musculus 6 BAC RP23-450O1 (Roswell Park Cancer Institute (C57BL/6J Female) Mouse BAC Library) complete sequence
+4 Mus musculus nuclear respiratory factor 1 (Nrf1)
+7 Mus musculus 6 BAC RP23-1D15 (Roswell Park Cancer Institute (C57BL/6J Female) Mouse BAC Library) complete sequence
+ Aotus nancymaae nuclear respiratory factor 1 (NRF1)
+ Castor canadensis nuclear respiratory factor 1 (Nrf1)
+ Cebus capucinus imitator nuclear respiratory factor 1 (NRF1)
+ Ceratotherium simum simum nuclear respiratory factor 1 (LOC101391114)
+ Cercocebus atys nuclear respiratory factor 1 (NRF1)
+ Chinchilla lanigera nuclear respiratory factor 1 (Nrf1)
+ Chlorocebus sabaeus nuclear respiratory factor 1 (NRF1)
+ Colobus angolensis palliatus nuclear respiratory factor 1 (NRF1)
+ Cricetulus griseus nuclear respiratory factor 1 (Nrf1)
+ Equus asinus nuclear respiratory factor 1 (NRF1)
+ Equus caballus nuclear respiratory factor 1 (NRF1)
+ Equus przewalskii nuclear respiratory factor 1 (NRF1)
+ Galeopterus variegatus nuclear respiratory factor 1 (NRF1)
+ Heterocephalus glaber nuclear respiratory factor 1 (Nrf1)
+ Ictidomys tridecemlineatus nuclear respiratory factor 1 (Nrf1)
+ Macaca fascicularis nuclear respiratory factor 1 (NRF1)
+ Macaca mulatta nuclear respiratory factor 1 (NRF1)
+ Macaca nemestrina nuclear respiratory factor 1 (NRF1)
+ Mandrillus leucophaeus nuclear respiratory factor 1 (NRF1)
+ Marmota marmota marmota nuclear respiratory factor 1 (Nrf1)
+ Mesocricetus auratus nuclear respiratory factor 1 (Nrf1)
+ Microcebus murinus nuclear respiratory factor 1 (NRF1)
+ Microtus ochrogaster nuclear respiratory factor 1 (Nrf1)
+ Mus caroli nuclear respiratory factor 1 (Nrf1)
+ Mus musculus nuclear respiratory factor 1 (Nrf1)
+ Mus pahari nuclear respiratory factor 1 (Nrf1)
+ Nannospalax galili nuclear respiratory factor 1 (Nrf1)
+ Otolemur garnettii nuclear respiratory factor 1 (NRF1)
+ Pan paniscus nuclear respiratory factor 1 (NRF1)
+ Pan troglodytes nuclear respiratory factor 1 (NRF1)
+ Papio anubis nuclear respiratory factor 1 (NRF1)
+ Peromyscus maniculatus bairdii nuclear respiratory factor 1 (Nrf1)
+ Pongo abelii nuclear respiratory factor 1 (NRF1)
+ Rattus norvegicus nuclear respiratory factor 1 (Nrf1)
+ Rhinopithecus roxellana nuclear respiratory factor 1 (NRF1)
+> this is my new weird sequence
