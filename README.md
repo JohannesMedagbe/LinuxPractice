@@ -1,8 +1,11 @@
 ## LinuxPractice
 
-### Creation of Exercise directory 
-mkdir Exercise
 
+*Creation of Exercise directory*
+```
+# mkdir Exercise
+
+```
 ### Setting working directory
 mkdir -p data scripts outputs 
 
