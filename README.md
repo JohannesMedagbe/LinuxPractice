@@ -1,30 +1,36 @@
 ## LinuxPractice
 
+*This repository is related to Bash*
 
-*Creation of Exercise directory*
+**Creation of Exercise directory**
 ```
 # mkdir Exercise
 
 ```
-### Setting working directory
-mkdir -p data scripts outputs 
+**Setting working directory**
+```
+mkdir -p data scripts outputs
 
 run mkdir raw processed
-
-### Copying datasets to raw data 
+```
+**Copying datasets to raw data**
+```
 mv nrf1_seq.fa nrf1_seqtemp.fa Exercise/data/raw
-
-### Extracting headers and saving in file sequence_names.txt after navigating to raw directory 
+```
+**Extracting headers and saving in file sequence_names.txt after navigating to raw directory**
+```
 grep "^>" *.fa >> ../processed/sequence_names.txt
 
 cut -d ':', f 2 sequence-names.txt > sequence_names2.txt
-
-### Saving command used for headers extraction in file extract_seq.sh
+```
+**Saving command used for headers extraction in file extract_seq.sh**
+```
 touch extract_seq.sh
 
 open extract_seq.sh
-
-### Counting and saving to files
+```
+**Counting and saving to files**
+```
 touch count_mRNA.txt
 
 grep "mRNA" sequence_names2.txt >> count_mRNA.txt
@@ -39,22 +45,28 @@ grep -v "mRNA" sequence_names.txt | grep "complete sequence" | wc -l >> num_othe
 
 grep -v "mRNA" sequence_names.txt | grep "weird sequence" | wc -l >> num_other_categ.txt
 
-### Counting organisms and removing duplicates
+```
+**Counting organisms and removing duplicates**
+```
 cut -d ',' -f 1 sequence_names2.txt | cut -d ':' -f 2 | cut -d '.' -f 2 | sort | uniq | wc -l
 
 cut -d ',' -f 1 sequence_names2.txt | cut -d ':' -f 2 | cut -d '.' -f 2 | sort | uniq > organisms.txt
-
-### Counting predicted
+```
+**Counting predicted**
+```
 grep -i "predicted" sequence_names2.txt | wc -l
-
-### Counting nucleotides
+```
+**Counting nucleotides**
+```
 grep -rv '^>' raw > processed/actual_sequences.txt
 
 cut -d ':' -f 2-5 processed/actual_sequences.txt > processed/actual_sequences2.txt
 
 wc -c actual_sequences2.txt
 
-### Counting number each base
+```
+**Counting number each base**
+```
 grep 'A' actual_sequences2.txt | wc -c
 
 grep 'T' actual_sequences2.txt | wc -c
@@ -62,3 +74,4 @@ grep 'T' actual_sequences2.txt | wc -c
 grep 'C' actual_sequences2.txt | wc -c
 
 grep 'G' actual_sequences2.txt | wc -c
+```
