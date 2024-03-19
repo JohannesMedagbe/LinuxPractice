@@ -4,7 +4,7 @@
 
 **Creation of Exercise directory**
 ```
-# mkdir Exercise
+mkdir Exercise
 
 ```
 **Setting working directory**
