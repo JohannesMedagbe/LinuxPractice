@@ -34,9 +34,11 @@ open extract_seq.sh
 touch count_mRNA.txt
 
 grep "mRNA" sequence_names2.txt >> count_mRNA.txt
+
 touch other_categ.txt
 
 grep -v "mRNA" sequence_names2.txt | grep "sequence"
+
 touch num_other_categ.txt
 
 grep -v "mRNA" sequence_names.txt | grep "full insert sequence" | wc -l >> num_other_categ.txt
