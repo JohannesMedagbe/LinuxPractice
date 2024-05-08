@@ -1,6 +1,6 @@
 ## LinuxPractice
 
-*This repository is related to Bash*
+*This repository has been built to solve problems using Bash for Computer science course, Pwani University*
 
 **Creation of Exercise directory**
 ```
