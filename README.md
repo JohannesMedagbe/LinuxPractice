@@ -1,4 +1,4 @@
-## LinuxPractice
+## BashPractice
 
 *This repository has been built to solve problems using Bash for Computer science course, Pwani University*
 
